@@ -1,0 +1,34 @@
+.Inicio {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, rgb(59, 248, 255), rgb(0, 0, 0));
+    padding: 20px 20px 200px;
+    align-items: center;
+}
+
+.TitleContainer{
+    padding-top: 80px;
+
+}
+
+.Inicio p{
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+}
+
+.CallToAction{
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    margin-left: 20px;
+    transition: 0.5s;
+    
+}
+
+.CallToAction:hover{
+    padding: 15px;
+    cursor: pointer;
+}
+
+.CTAContainer{
+    padding-top: 40px;
+}
